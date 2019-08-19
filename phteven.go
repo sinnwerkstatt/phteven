@@ -29,7 +29,7 @@ func runBash(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	port := "3000"
+	port := "9847"
 	if len(os.Args) >= 2 {
 		port = os.Args[1]
 	}
